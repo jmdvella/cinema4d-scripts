@@ -68,6 +68,6 @@ Change/Add your own material settings in Function: newVrayMaterial(current_mater
 <br />
 
 ### JV_FlipYZAxis.py
-- Flips Z/Y Axis for imported FBX models with inverted axis (such as 3dsmax).
+- Flips Y/Z Axis for imported FBX models with inverted axis (such as 3dsmax).
 - Works for Nulls, Nested Nulls & Polygon objects.
 - Make sure you reset transform/xforms on all objects before grouping and exporting to FBX.
