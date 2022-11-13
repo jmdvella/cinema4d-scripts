@@ -36,6 +36,7 @@ JV_FBXMaterialsToVray.py
 - Converts imported FBX materials to V-Ray materials.
 - Intended for V-Ray Roughness materials that have been converted to Standard materials before exporting to FBX. 
 - When exporting from 3dsmax use this script to convert and export to FBX first (JV_VrayRoughnessToFBX.ms): https://github.com/jmdvella/3dsmax-scripts
+- Warning: Preferences will be permanently changed - Comment out line 208 if not required.
 
 <br />
 
