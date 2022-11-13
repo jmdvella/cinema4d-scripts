@@ -30,6 +30,6 @@ JV_FBXMaterialsToVray.py
 
 
 JV_ResetAxisFrom3dsmax.py
-- Flips Z/Y Axis for FBX models imported from 3dsmax.
+- Flips Z/Y Axis for FBX models imported from 3dsmax (or other instances where Z/Y is flipped).
 - Works for Nulls, Nested Nulls & Polygon objects.
 - Make sure you reset transform/xforms on all objects before grouping and exporting from 3dsmax.
