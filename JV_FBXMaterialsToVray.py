@@ -205,7 +205,7 @@ def main():
 
     # Change C4D Preferences
     # Warning: This changes your Edit -> Preferences -> Renderer -> V-Ray -> Materials settings
-    changePreferences()
+    #changePreferences()
 
     # Collect scene Polygon/Base objects
     collected_objs = [] # Empty list to collect all scene objects
