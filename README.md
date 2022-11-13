@@ -1,10 +1,14 @@
 # James Vella Cinema 4D Scripts 
 My collection of Cinema4d scripts. Currently written for Maxon Cinema 4D R21.207 in Python version 2.7.18
 
+<br />
+
 # How to use
 - Download the .py file
 - Open your 3D scene in Cinema4D
 - Cinema4D -> Main Menu -> Extensions -> User Scripts - > Run Script -> Locate download .py file
+
+<br />
 
 # Script descriptions
 JV_AddSubdivisionAllObjects.py
