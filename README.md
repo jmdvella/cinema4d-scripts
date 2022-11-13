@@ -20,22 +20,22 @@ JV_AddSubdivisionAllObjects.py
 
 JV_FBXMaterialsToCorona.py
 - Converts imported FBX materials to Corona materials.
-- Works best with V-Ray Roughness materials that have been converted to Standard materials before exporting to FBX. 
-- When exporting from 3dsmax use this script to convert and export to FBX first for most optimal results (JV_VrayRoughnessToFBX.ms): https://github.com/jmdvella/3dsmax-scripts
+- Intended for V-Ray Roughness materials that have been converted to Standard materials before exporting to FBX. 
+- When exporting from 3dsmax use this script to convert and export to FBX first (JV_VrayRoughnessToFBX.ms): https://github.com/jmdvella/3dsmax-scripts
 
 <br />
 
 JV_FBXMaterialsToPhysical.py
 - Converts imported FBX materials to Physical materials.
-- Works best with V-Ray Roughness materials that have been converted to Standard materials before exporting to FBX. 
-- When exporting from 3dsmax use this script to convert and export to FBX first for most optimal results (JV_VrayRoughnessToFBX.ms): https://github.com/jmdvella/3dsmax-scripts
+- Intended for V-Ray Roughness materials that have been converted to Standard materials before exporting to FBX. 
+- When exporting from 3dsmax use this script to convert and export to FBX first (JV_VrayRoughnessToFBX.ms): https://github.com/jmdvella/3dsmax-scripts
 
 <br />
 
 JV_FBXMaterialsToVray.py
 - Converts imported FBX materials to V-Ray materials.
-- Works best with V-Ray Roughness materials that have been converted to Standard materials before exporting to FBX. 
-- When exporting from 3dsmax use this script to convert and export to FBX first for most optimal results (JV_VrayRoughnessToFBX.ms): https://github.com/jmdvella/3dsmax-scripts
+- Intended for V-Ray Roughness materials that have been converted to Standard materials before exporting to FBX. 
+- When exporting from 3dsmax use this script to convert and export to FBX first (JV_VrayRoughnessToFBX.ms): https://github.com/jmdvella/3dsmax-scripts
 
 <br />
 
