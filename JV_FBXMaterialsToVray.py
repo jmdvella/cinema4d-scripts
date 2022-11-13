@@ -12,7 +12,7 @@ Description-US: Convert FBX Standard Roughness Materials to Vray 5.0: supports:
                 - Metal
                 - Normal Bump
                 - Alpha/Opacity
-                - Glass: any materials using "Transparency" will be converted to Glass - Comment out line 68-79 if not required
+                - Glass: any materials using "Transparency" will be converted to Glass. Comment out line 68-79 if not required
 
                 Change/Add your own material settings in Function: newVrayMaterial(current_material, new_vray_mat)
                 
