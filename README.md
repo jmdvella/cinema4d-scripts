@@ -12,7 +12,9 @@ My collection of Cinema4d scripts. Currently written for Maxon Cinema 4D R21.207
 
 # Script descriptions
 JV_AddSubdivisionAllObjects.py
-- Applies subdivision modifier to all objects at the top of the hirearchy. Grouped items are given 1 subdivision for all items in that group. Non grouped items are each given a subdivision modifier.
+- Applies Subdivision modifier to all objects at the top of the hirearchy
+- Grouped items are given 1 Subdivision for all items in that group
+- Non grouped items are each given a Subdivision modifier
 
 <br />
 
