@@ -39,7 +39,7 @@ Change/Add your own material settings in Function: newCoronaMaterial(current_mat
 - Intended for V-Ray Roughness materials that have been converted to Standard materials before exporting to FBX. 
 - When exporting from 3dsmax use this script to convert and export to FBX first (JV_VrayRoughnessToFBX.ms): https://github.com/jmdvella/3dsmax-scripts
 #### Supports:
-- Diffuse & Diffuse Color - materials without a diffuse texture will copy the diffuse color
+- Diffuse & Diffuse Color 
 - Roughness - materials without a roughness texture will be set to roughness 100%
 - Metal
 - Normal Bump
