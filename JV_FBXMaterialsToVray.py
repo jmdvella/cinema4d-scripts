@@ -17,7 +17,7 @@ Description-US: Convert FBX Standard Roughness Materials to Vray 5.0: supports:
                 Change/Add your own material settings in Function: newVrayMaterial(current_material, new_vray_mat)
                 
                 Warning: 
-                Preferences will be permanently changed - Comment out line 208 if not required. Changes:
+                Preferences can be permanently changed - Comment in line 208 if required. Changes:
                 Edit -> Preferences -> Renderer -> V-Ray -> Materials -> Previews -> Enable
                 Edit -> Preferences -> Renderer -> V-Ray -> Materials -> Previews -> Editor Map Size: 1024x1024 (4MB)
 """
