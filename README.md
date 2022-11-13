@@ -21,14 +21,14 @@ My collection of Cinema4d scripts. Currently written for Maxon Cinema 4D R21.207
 ### JV_FBXMaterialsToCorona.py
 - Converts imported FBX materials to Corona materials
 - Intended for V-Ray Roughness materials that have been converted to Standard materials before exporting to FBX 
-- When exporting from 3dsmax use this script to convert and export to FBX first (JV_VrayRoughnessToFBX.ms): https://github.com/jmdvella/3dsmax-scripts
+- When exporting from 3dsmax use [this script]( https://github.com/jmdvella/3dsmax-scripts/blob/main/JV_VrayRoughnessToFBX.ms) to convert materials and export to FBX
 #### Supports:
 - Diffuse & Diffuse Color
 - Roughness
 - Metal
 - Normal Bump
 - Alpha/Opacity
-- Transmissive - any materials using "Transparency" will be converted to Glass.  - Comment out line 63-73 if not required
+- Transmissive - any materials using "Transparency" will be converted to Glass. Comment out line 63-73 if not required
 #### Scripting Note:
 Change/Add your own material settings in Function: newCoronaMaterial(current_material, new_corona_mat)
 
@@ -37,7 +37,7 @@ Change/Add your own material settings in Function: newCoronaMaterial(current_mat
 ### JV_FBXMaterialsToPhysical.py
 - Converts imported FBX materials to Physical materials
 - Intended for V-Ray Roughness materials that have been converted to Standard materials before exporting to FBX
-- When exporting from 3dsmax use this script to convert and export to FBX first (JV_VrayRoughnessToFBX.ms): https://github.com/jmdvella/3dsmax-scripts
+- When exporting from 3dsmax use [this script]( https://github.com/jmdvella/3dsmax-scripts/blob/main/JV_VrayRoughnessToFBX.ms) to convert materials and export to FBX
 #### Supports:
 - Diffuse & Diffuse Color 
 - Roughness - materials without a roughness texture will be set to roughness 100%
@@ -53,15 +53,15 @@ Change/Add your own material settings in Function: convertMaterials(mat)
 ### JV_FBXMaterialsToVray.py
 - Converts imported FBX materials to V-Ray materials
 - Intended for V-Ray Roughness materials that have been converted to Standard materials before exporting to FBX 
-- When exporting from 3dsmax use this script to convert and export to FBX first (JV_VrayRoughnessToFBX.ms): https://github.com/jmdvella/3dsmax-scripts
-- Warning: Preferences will be permanently changed - Comment out line 208 if not required
+- When exporting from 3dsmax use [this script]( https://github.com/jmdvella/3dsmax-scripts/blob/main/JV_VrayRoughnessToFBX.ms) to convert materials and export to FBX
+Preferences will be permanently changed - Comment in line 208 if required (disabled by default to avoid changes to users preference)
 #### Supports:
 - Diffuse & Diffuse Color
 - Roughness
 - Metal
 - Normal Bump
 - Alpha/Opacity
-- Transmissive - any materials using "Transparency" will be converted to Glass - Comment out line 68-79 if not required
+- Transmissive - any materials using "Transparency" will be converted to Glass. Comment out line 68-79 if not required
 #### Scripting Note:
 Change/Add your own material settings in Function: newVrayMaterial(current_material, new_vray_mat)
 
