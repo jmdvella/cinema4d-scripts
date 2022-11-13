@@ -54,7 +54,6 @@ Change/Add your own material settings in Function: convertMaterials(mat)
 - Converts imported FBX materials to V-Ray materials
 - Intended for V-Ray Roughness materials that have been converted to Standard materials before exporting to FBX 
 - When exporting from 3dsmax use [this script]( https://github.com/jmdvella/3dsmax-scripts/blob/main/JV_VrayRoughnessToFBX.ms) to convert materials and export to FBX
-Preferences will be permanently changed - Comment in line 208 if required (disabled by default to avoid changes to users preference)
 #### Supports:
 - Diffuse & Diffuse Color
 - Roughness
@@ -63,7 +62,8 @@ Preferences will be permanently changed - Comment in line 208 if required (disab
 - Alpha/Opacity
 - Transmissive - any materials using "Transparency" will be converted to Glass. Comment out line 68-79 if not required
 #### Scripting Note:
-Change/Add your own material settings in Function: newVrayMaterial(current_material, new_vray_mat)
+Change/Add your own material settings in Function: newVrayMaterial(current_material, new_vray_mat)  
+Preferences can be permanently changed - Comment in line 208 if required (disabled by default to avoid changes to users preference)
 
 <br />
 
